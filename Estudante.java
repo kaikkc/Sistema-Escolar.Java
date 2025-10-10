@@ -11,4 +11,7 @@ public class Estudante{
         return id;
     }
 
+    public String getNome() {
+        return nome;
+    }
 }
