@@ -1,4 +1,4 @@
-public class Disciplina {
+public class Disciplina implements Mostravel{
     private String codigo;
     private String nome;
 
@@ -15,6 +15,7 @@ public class Disciplina {
         return nome;
     }
 
+    @Override
     public String mostrarInfo() {
         return codigo + " - " + nome;
     }

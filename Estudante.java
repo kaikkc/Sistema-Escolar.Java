@@ -1,4 +1,4 @@
-public class Estudante{
+public class Estudante implements Mostravel{
     private int id;
     private String nome;
 
@@ -15,6 +15,7 @@ public class Estudante{
         return nome;
     }
 
+    @Override
     public String mostrarInfo() {
         return id + " - " + nome;
     }
