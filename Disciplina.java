@@ -6,4 +6,8 @@ public class Disciplina {
         this.codigo = codigo;
         this.nome = nome;
     }
+
+    public String getCodigo() {
+        return codigo;
+    }
 }
