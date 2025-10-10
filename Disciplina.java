@@ -14,4 +14,8 @@ public class Disciplina {
     public String getNome() {
         return nome;
     }
+
+    public String mostrarInfo() {
+        return codigo + " - " + nome;
+    }
 }
