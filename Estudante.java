@@ -14,4 +14,8 @@ public class Estudante{
     public String getNome() {
         return nome;
     }
+
+    public String mostrarInfo() {
+        return id + " - " + nome;
+    }
 }
