@@ -10,4 +10,8 @@ public class Disciplina {
     public String getCodigo() {
         return codigo;
     }
+
+    public String getNome() {
+        return nome;
+    }
 }
