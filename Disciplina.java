@@ -18,4 +18,8 @@ public class Disciplina {
     public String mostrarInfo() {
         return codigo + " - " + nome;
     }
+
+    public boolean temMesmoCodigo(Disciplina outra) {
+        return this.codigo.equals(outra.codigo);
+    }
 }
