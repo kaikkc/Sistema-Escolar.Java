@@ -3,7 +3,7 @@ public class CadastroDisciplinas {
     private Set<Disciplina> disciplinas = new LinkedHashSet<>();
 
     // Adicionar disciplina
-    public void adicionarDisciplina(Disciplina d) {
+    public boolean adicionarDisciplina(Disciplina d) {
         disciplinas.add(d);
     }
 
